@@ -5,6 +5,7 @@ export default function index() {
     <div>
       <h1>komsark</h1>
       <img src="vercel.svg" alt="" height={100} />
+      <img src="images/photo.jpeg" alt="" height={100} />
     </div>
   )
 }
