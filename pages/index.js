@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Image from "next/image";
 export default function index() {
   return (
     <div>
       <h1>komsark</h1>
-      <img src="vercel.svg" alt="" height={100} />
-      <img src="images/photo.jpeg" alt="" height={100} />
+
+      <Image width={500} height={200} src="/images/photo.jpeg" alt="" />
     </div>
-  )
+  );
 }
